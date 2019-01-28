@@ -1,0 +1,95 @@
+html {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 3vmin;
+}
+
+h1 {
+    font-size: 8vmin;
+}
+
+h2 {
+    font-size: 6vmin;
+}
+
+h3 {
+    font-size: 4.5vmin;
+}
+
+h4 {
+    font-size: 4vmin;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+	.image-full{
+		display:none;
+	}
+
+	.image-mobile{
+		display:block;
+	}
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}
+
+header {
+	text-align: center;
+}
+.container-bg {
+	background-color: #4FCDFF;
+}
+
+li {
+	display:inline;
+}
+
+li a {
+	display: inline-block;
+	color: #333333;
+	text-align: center;
+	padding: 14px 30px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	vertical-align: middle;
+}
+
+.nav-item:hover {
+	background-color: #2cacde;
+}
+.link_div {
+	display: flex;
+	align-items:center;
+	margin-bottom: 10px;
+}
+.custom-toggler.navbar-toggler {
+	border-color: #333333;
+}
+.custom-toggler .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#333333' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.image-full {
+	display:block;
+}
+
+.image-mobile {
+	display:none;
+}
+
+.small-line-height {
+	line-height: 6vmin;
+}
